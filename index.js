@@ -66,7 +66,7 @@ app.post('/challenge', async (req, res) => {
       server: {
           name: "Test-Server",
           url: "http://localhost:3000/",
-          did: "did:ont:ASEGZNMPSsCHWLbzDg6XUMGGUhcGYTfMTW",
+          did: "did:ont:ASEGZNMPSsCHWLbzDg6XUMGGUhcGYTfMTW", // what did should be used here?
           verificationMethod: "YourServerVerificationMethod",
       },
       chain: ["ONT"],
